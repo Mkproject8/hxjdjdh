@@ -748,13 +748,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Tanujairam')
+            InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Doctor6689')
             ],[      
             InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/REX_BOTZ'),
-            InlineKeyboardButton('🎨 sᴜᴘᴘᴏʀᴛ', url='https://t.me/REX_Bots_Support')
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs', url='https://https://t.me/firstshowers'),
+            InlineKeyboardButton('🎨 sᴜᴘᴘᴏʀᴛ', url='https://https://t.me/firstshowers')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -857,7 +857,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ######
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('👤 ᴏᴛʜᴇʀ ʙᴏᴛs', url ='https://t.me/REX_BOTZ/94'),
+            InlineKeyboardButton('👤 ᴏᴛʜᴇʀ ʙᴏᴛs', url ='https://https://t.me/Mksupport1'),
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'), 
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
